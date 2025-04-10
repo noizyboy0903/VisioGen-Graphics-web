@@ -17,7 +17,6 @@ export default function Home() {
           Bringing Visions to Life | Design. Motion. Innovation.
         </p>
       </motion.div>
-
       <section className="grid md:grid-cols-2 gap-6">
         <Card className="bg-gray-900 rounded-2xl shadow-lg">
           <CardContent className="p-6">
@@ -30,7 +29,6 @@ export default function Home() {
             </Button>
           </CardContent>
         </Card>
-
         <Card className="bg-gray-900 rounded-2xl shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-2">Brochures & Pamphlets</h2>
@@ -42,7 +40,6 @@ export default function Home() {
             </Button>
           </CardContent>
         </Card>
-
         <Card className="bg-gray-900 rounded-2xl shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-2">T-Shirt Graphics</h2>
@@ -54,7 +51,6 @@ export default function Home() {
             </Button>
           </CardContent>
         </Card>
-
         <Card className="bg-gray-900 rounded-2xl shadow-lg">
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-2">Cinematography & Video</h2>
@@ -67,7 +63,6 @@ export default function Home() {
           </CardContent>
         </Card>
       </section>
-
       <motion.footer
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
